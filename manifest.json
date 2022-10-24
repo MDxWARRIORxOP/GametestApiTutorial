@@ -1,0 +1,26 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Gametest API Tutorial #1.",
+        "name": "Gametest API Tutorial",
+        "uuid": "6ab40067-6417-4e19-af09-edfa3595cbf6",
+        "version": [1, 0, 1],
+        "min_engine_version": [ 1, 19, 0 ]
+    },
+    "modules": [
+        {
+            "description": "A pack that says stuff to the chat.",
+            "type": "script",
+            "language": "javascript",
+            "uuid": "a0d7f626-1b62-4314-9ca6-c73c7584761c",
+            "version": [0, 0, 1],
+            "entry": "scripts/index.js"
+        }
+    ],
+    "dependencies": [
+      {
+        "module_name": "mojang-minecraft",
+        "version": "1.0.0-beta"
+      }
+    ]
+}
