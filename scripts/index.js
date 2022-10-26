@@ -1,4 +1,4 @@
-import { world } from "mojang-minecraft";
+import { world } from "@minecraft/server";
 
 // whenever someone sends a msg, just repeat it.
 world.events.beforeChat.subscribe((event) => {
